@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class MainPageComponent {
 
+  agregar() {
+    console.log('Esta es una prueba')
+  }
+
 }
