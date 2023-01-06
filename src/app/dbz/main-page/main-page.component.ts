@@ -25,6 +25,7 @@ export class MainPageComponent {
   }
 
   agregarNuevoPersonaje( argumento: Personaje) {
+    debugger;     // breakpoint para depurar
     this.personajes.push( argumento );
   }
 
