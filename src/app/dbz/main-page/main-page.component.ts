@@ -7,8 +7,7 @@ interface Personaje {
 
 @Component({
   selector: 'app-main-page',
-  templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.css']
+  templateUrl: './main-page.component.html'
 })
 export class MainPageComponent {
 
