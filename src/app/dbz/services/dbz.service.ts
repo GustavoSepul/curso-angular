@@ -19,8 +19,10 @@ export class DbzService {
     return [...this._personajes]; //llaves indican arreglo y tres puntos indican operador spread
   }
 
-  constructor() {
-      console.log('Servicio inicializado');
+  constructor() {}
+
+  agregarPersonaje( personaje: Personaje ) {
+      this._personajes.push( personaje );
   }
 
 
